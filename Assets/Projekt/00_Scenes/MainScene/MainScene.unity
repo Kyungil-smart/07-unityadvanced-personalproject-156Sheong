@@ -622,6 +622,7 @@ GameObject:
   - component: {fileID: 42569476}
   - component: {fileID: 42569478}
   - component: {fileID: 42569477}
+  - component: {fileID: 42569479}
   m_Layer: 5
   m_Name: EventStoryPanel
   m_TagString: Untagged
@@ -686,6 +687,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 42569475}
   m_CullTransparentMesh: 1
+--- !u!114 &42569479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42569475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86665aa61e3b82e4ab87404d0a1192c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ContentPanelUI
+  parentCanvas: {fileID: 49657724}
 --- !u!1 &46910283
 GameObject:
   m_ObjectHideFlags: 0
@@ -824,6 +838,7 @@ GameObject:
   - component: {fileID: 48295952}
   - component: {fileID: 48295954}
   - component: {fileID: 48295953}
+  - component: {fileID: 48295955}
   m_Layer: 5
   m_Name: BattlesPanel
   m_TagString: Untagged
@@ -888,6 +903,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 48295951}
   m_CullTransparentMesh: 1
+--- !u!114 &48295955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48295951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86665aa61e3b82e4ab87404d0a1192c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ContentPanelUI
+  parentCanvas: {fileID: 49657724}
 --- !u!1 &48914115
 GameObject:
   m_ObjectHideFlags: 0
@@ -1814,6 +1842,7 @@ GameObject:
   - component: {fileID: 204221880}
   - component: {fileID: 204221882}
   - component: {fileID: 204221881}
+  - component: {fileID: 204221883}
   m_Layer: 5
   m_Name: MissionPanel
   m_TagString: Untagged
@@ -1878,6 +1907,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 204221879}
   m_CullTransparentMesh: 1
+--- !u!114 &204221883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204221879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86665aa61e3b82e4ab87404d0a1192c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ContentPanelUI
+  parentCanvas: {fileID: 49657724}
 --- !u!1 &204594412
 GameObject:
   m_ObjectHideFlags: 0
@@ -7351,6 +7393,7 @@ GameObject:
   - component: {fileID: 1703646643}
   - component: {fileID: 1703646645}
   - component: {fileID: 1703646644}
+  - component: {fileID: 1703646646}
   m_Layer: 5
   m_Name: CampaignPanel
   m_TagString: Untagged
@@ -7415,6 +7458,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1703646642}
   m_CullTransparentMesh: 1
+--- !u!114 &1703646646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703646642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86665aa61e3b82e4ab87404d0a1192c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ContentPanelUI
+  parentCanvas: {fileID: 49657724}
 --- !u!1 &1712059088
 GameObject:
   m_ObjectHideFlags: 0
@@ -7988,6 +8044,7 @@ GameObject:
   - component: {fileID: 1837398920}
   - component: {fileID: 1837398919}
   - component: {fileID: 1837398918}
+  - component: {fileID: 1837398921}
   m_Layer: 5
   m_Name: Button_Back
   m_TagString: Untagged
@@ -8058,7 +8115,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1837398919}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1837398921}
+        m_TargetAssemblyTypeName: CommonBackButton, Assembly-CSharp
+        m_MethodName: OnClickBack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1837398919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8097,6 +8166,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837398914}
   m_CullTransparentMesh: 1
+--- !u!114 &1837398921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837398914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e1c02225ce7df4dba0fb5cc61e690f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CommonBackButton
 --- !u!1 &1853752674
 GameObject:
   m_ObjectHideFlags: 0
@@ -8921,10 +9002,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::OperationButtonGroupManager
   OperationCanvas: {fileID: 49657724}
   OperationPanelList:
-  - {fileID: 204221879}
-  - {fileID: 1703646642}
-  - {fileID: 48295951}
-  - {fileID: 42569475}
+  - {fileID: 204221883}
+  - {fileID: 1703646646}
+  - {fileID: 48295955}
+  - {fileID: 42569479}
 --- !u!1 &1990687429
 GameObject:
   m_ObjectHideFlags: 0
