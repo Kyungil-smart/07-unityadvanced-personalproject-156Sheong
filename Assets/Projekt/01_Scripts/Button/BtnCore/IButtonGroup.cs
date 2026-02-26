@@ -2,5 +2,5 @@ using UnityEngine;
 
 public interface IButtonGroup
 {
-    void OnButtonSelected(ButtonController selectedBtn);
+    void OnButtonSelected(BottomButtonController selectedBtn);
 }
