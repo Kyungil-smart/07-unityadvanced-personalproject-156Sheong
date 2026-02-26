@@ -48,6 +48,3 @@ MonoBehaviour:
   - {fileID: 2315071033205189690, guid: 9614f9ce6dfc7834881aa65eeabe0548, type: 3}
   - {fileID: 5969562169541298882, guid: de267f3d217b18d43b02fc18f8419fe6, type: 3}
   - {fileID: 1338569993529715887, guid: 2bce3db749c851641bd353c24bb6a9f9, type: 3}
-  - {fileID: 8994035206481766734, guid: a38946e2b2dd75f4493b655feb036acc, type: 3}
-  sceneToLoad:
-  - MainScene

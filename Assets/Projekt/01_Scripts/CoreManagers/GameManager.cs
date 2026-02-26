@@ -24,12 +24,13 @@ public class GameManager : Singleton<GameManager>
 
     private void Init()
     {
-        // 각종 매니저 생성
+        // 자식 오브젝트로 각종 매니저 생성
         foreach (GameObject manager in coreManagers)
         {
             if (manager != null)
             {
-                Instantiate(manager);
+                GameObject newManager = Instantiate(manager, transform);
+                newManager.name = manager.name;
             }
         }
     }
