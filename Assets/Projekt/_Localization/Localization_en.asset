@@ -178,6 +178,10 @@ MonoBehaviour:
     m_Localized: Dumas
     m_Metadata:
       m_Items: []
+  - m_Id: 1000009
+    m_Localized: Tap the screen to start
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
