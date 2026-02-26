@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class SoundManager : Singleton<SoundManager>
 {
 
-
+    /*
     private AudioSource _sourceSE;
     private AudioSource _sourceBGM;
 
@@ -50,5 +50,5 @@ public class SoundManager : Singleton<SoundManager>
     {
         // _sourceBGM.volume = tempSliderBGM.value;
     }
-
+    */
 }
