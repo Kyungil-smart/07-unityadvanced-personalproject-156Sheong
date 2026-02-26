@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Localization_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 2b33ee339c101264dbbfedc45529de84, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1000001
+    m_Localized: Twilight Frontline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000002
+    m_Localized: Camp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000003
+    m_Localized: Order
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000004
+    m_Localized: OP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000005
+    m_Localized: Armory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000006
+    m_Localized: Supply
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000007
+    m_Localized: Shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000008
+    m_Localized: Social
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1001001
+    m_Localized: Quest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1001002
+    m_Localized: Journey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1001003
+    m_Localized: Season Pass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1001004
+    m_Localized: Mission
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1001005
+    m_Localized: Campaign
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1001006
+    m_Localized: Coastal Defense
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1001007
+    m_Localized: Raid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1001008
+    m_Localized: LOC Security
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1001009
+    m_Localized: Strike
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1001010
+    m_Localized: Siege
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1001011
+    m_Localized: Wargame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1001012
+    m_Localized: Last Stand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1001013
+    m_Localized: Capture
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011001
+    m_Localized: Eisenreich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011002
+    m_Localized: Reich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011003
+    m_Localized: Solar-Polaris Shogunate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011004
+    m_Localized: Shogunate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011005
+    m_Localized: Aroanui Federation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011006
+    m_Localized: Aroanui
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011007
+    m_Localized: The Royal Realms of Albion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011008
+    m_Localized: Albion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011009
+    m_Localized: Aquitainia Committee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011010
+    m_Localized: The Committee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011011
+    m_Localized: Aquitania Libre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011012
+    m_Localized: Libre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011013
+    m_Localized: Celestial Empire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011014
+    m_Localized: The Celestial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011015
+    m_Localized: Union of Soviet Republics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011016
+    m_Localized: Union
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1012001
+    m_Localized: von Seydlitz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1012002
+    m_Localized: von Kleist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1012003
+    m_Localized: Dumas
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

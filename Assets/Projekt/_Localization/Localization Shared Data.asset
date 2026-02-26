@@ -1,0 +1,290 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Localization Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: Localization
+  m_TableCollectionNameGuidString: 2b33ee339c101264dbbfedc45529de84
+  m_Entries:
+  - m_Id: 1000001
+    m_Key: UI_TitleName
+    m_Metadata:
+      m_Items:
+      - rid: 785849002462281807
+  - m_Id: 1000002
+    m_Key: UI_Button_Barracks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000003
+    m_Key: UI_Button_Deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000004
+    m_Key: UI_Button_Battle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000005
+    m_Key: UI_Button_Item
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000006
+    m_Key: UI_Button_Supply
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000007
+    m_Key: UI_Button_Shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000008
+    m_Key: UI_Button_Social
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1001001
+    m_Key: UI_Button_Quest
+    m_Metadata:
+      m_Items:
+      - rid: 785849036825165929
+  - m_Id: 1001002
+    m_Key: UI_Button_Journey
+    m_Metadata:
+      m_Items:
+      - rid: 785849036825165930
+  - m_Id: 1001003
+    m_Key: UI_Button_SeasonPass
+    m_Metadata:
+      m_Items:
+      - rid: 785849036825165931
+  - m_Id: 1001004
+    m_Key: UI_Button_Mission
+    m_Metadata:
+      m_Items:
+      - rid: 785849036825165932
+  - m_Id: 1001005
+    m_Key: UI_Button_Campaign
+    m_Metadata:
+      m_Items:
+      - rid: 785849036825165933
+  - m_Id: 1001006
+    m_Key: UI_Button_Coastal
+    m_Metadata:
+      m_Items:
+      - rid: 785849036825165934
+  - m_Id: 1001007
+    m_Key: UI_Button_Raid
+    m_Metadata:
+      m_Items:
+      - rid: 785849036825165935
+  - m_Id: 1001008
+    m_Key: UI_Button_LOC
+    m_Metadata:
+      m_Items:
+      - rid: 785849036825165936
+  - m_Id: 1001009
+    m_Key: UI_Button_Strike
+    m_Metadata:
+      m_Items:
+      - rid: 785849036825165937
+  - m_Id: 1001010
+    m_Key: UI_Button_Siege
+    m_Metadata:
+      m_Items:
+      - rid: 785849036825165938
+  - m_Id: 1001011
+    m_Key: UI_Button_Wargame
+    m_Metadata:
+      m_Items:
+      - rid: 785849036825165939
+  - m_Id: 1001012
+    m_Key: UI_Button_LastStand
+    m_Metadata:
+      m_Items:
+      - rid: 785849036825165940
+  - m_Id: 1001013
+    m_Key: UI_Button_Capture
+    m_Metadata:
+      m_Items:
+      - rid: 785849036825165941
+  - m_Id: 1011001
+    m_Key: Faction_Name_Eisenreich
+    m_Metadata:
+      m_Items:
+      - rid: 785849036825165942
+  - m_Id: 1011002
+    m_Key: Faction_Name_Eisenreich_Short
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011003
+    m_Key: Faction_Name_Realm
+    m_Metadata:
+      m_Items:
+      - rid: 785849036825165943
+  - m_Id: 1011004
+    m_Key: Faction_Name_Realm_Short
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011005
+    m_Key: Faction_Name_Aroanui
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011006
+    m_Key: Faction_Name_Aroanui_Short
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011007
+    m_Key: Faction_Name_Albion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011008
+    m_Key: Faction_Name_Albion_Short
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011009
+    m_Key: Faction_Name_Committee
+    m_Metadata:
+      m_Items:
+      - rid: 785849036825165944
+  - m_Id: 1011010
+    m_Key: Faction_Name_Committee_Short
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011011
+    m_Key: Faction_Name_Libre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011012
+    m_Key: Faction_Name_Libre_Short
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011013
+    m_Key: Faction_Name_Celestial
+    m_Metadata:
+      m_Items:
+      - rid: 785849036825165945
+  - m_Id: 1011014
+    m_Key: Faction_Name_Celestial_Short
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011015
+    m_Key: Faction_Name_Soviet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011016
+    m_Key: Faction_Name_Soviet_Short
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1012001
+    m_Key: Leader_Name_Seydlitz
+    m_Metadata:
+      m_Items:
+      - rid: 785849036825165946
+  - m_Id: 1012002
+    m_Key: Leader_Name_Kleist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1012003
+    m_Key: Leader_Name_Dumas
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 785848974547878171
+  references:
+    version: 2
+    RefIds:
+    - rid: 785848974547878171
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1771834685569
+    - rid: 785849002462281807
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "\uBA54\uC778 \uD654\uBA74 UI \uBA85\uCE6D"
+    - rid: 785849036825165929
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "\uD018\uC2A4\uD2B8 \uCEE8\uD150\uCE20 \uBA85\uCE6D - \uC77C\uC77C
+          \uC8FC\uAC04 \uBC18\uBCF5 \uD018\uC2A4\uD2B8"
+    - rid: 785849036825165930
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "\uB808\uBCA8 \uD018\uC2A4\uD2B8"
+    - rid: 785849036825165931
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "\uC2DC\uC98C \uD328\uC2A4"
+    - rid: 785849036825165932
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "\uC804\uD22C \uCEE8\uD150\uCE20 \uBA85\uCE6D - \uAE30\uBCF8
+          \uCEE8\uD150\uCE20 \uBB34\uD55C\uC758 \uD0D1"
+    - rid: 785849036825165933
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "\uC2A4\uD1A0\uB9AC \uCEE8\uD150\uCE20"
+    - rid: 785849036825165934
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "\uC801 \uC6E8\uC774\uBE0C \uBC29\uC5B4 \uCEE8\uD150\uCE20"
+    - rid: 785849036825165935
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "\uC2DC\uAC04 \uB0B4 \uCD5C\uB300\uD55C \uB9CE\uC740 \uC801
+          \uCC98\uCE58 \uCEE8\uD150\uCE20"
+    - rid: 785849036825165936
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "\uC9C0\uC5ED\uC758 \uBCD1\uCC38\uC120\uC744 \uBCF4\uD638\uD558\uB294
+          \uCEE8\uD150\uCE20"
+    - rid: 785849036825165937
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "\uC801\uC758 \uC8FC\uC694 \uC2DC\uC124\uC744 \uD30C\uAD34\uD558\uB294
+          \uCEE8\uD150\uCE20"
+    - rid: 785849036825165938
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "\uBCF4\uC2A4 \uB808\uC774\uB4DC \uCEE8\uD150\uCE20"
+    - rid: 785849036825165939
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "PvP \uCEE8\uD150\uCE20(\uACE0\uB7AD\uD0B9\uC740 \uC5D4\uB4DC\uAE09)"
+    - rid: 785849036825165940
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "\uC5D4\uB4DC\uAE09 \uCD5C\uB300\uD55C \uBC84\uD2F0\uB294
+          \uCEE8\uD150\uCE20"
+    - rid: 785849036825165941
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "\uC5D4\uB4DC\uAE09 \uC2DC\uC98C\uC81C \uB85C\uADF8\uB77C\uC774\uD06C
+          \uCEE8\uD150\uCE20"
+    - rid: 785849036825165942
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "\uC138\uB825\uBA85"
+    - rid: 785849036825165943
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "\u65E5\u8F2A\u5317\u8FB0\u570B"
+    - rid: 785849036825165944
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "Comit\xE9 de salut public d'Aquitainia"
+    - rid: 785849036825165945
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "\u5929\u671D"
+    - rid: 785849036825165946
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "\uB9AC\uB354\uBA85"
