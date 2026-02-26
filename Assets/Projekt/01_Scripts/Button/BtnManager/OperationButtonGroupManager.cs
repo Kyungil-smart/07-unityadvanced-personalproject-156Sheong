@@ -5,7 +5,7 @@ using UnityEngine;
 public class OperationButtonGroupManager : MonoBehaviour
 {
     [SerializeField] private GameObject OperationCanvas;
-    [SerializeField] private List<GameObject> OperationPanelList = new List<GameObject>();
+    [SerializeField] private List<ContentPanelUI> OperationPanelList = new List<ContentPanelUI>();
         
 
 
@@ -20,20 +20,47 @@ public class OperationButtonGroupManager : MonoBehaviour
 
     private void Init()
     {
-        // 첫 시작 시 캔버스랑 패널 비활성화 처리
 
+        // 첫 시작 시 캔버스 비활성화 처리
         if (OperationCanvas != null)
         {
-            SetActivePanel(false);
+            OperationCanvas.SetActive(false);
         }
-        
+
+        // 아래는 구버젼이라 주석 처리
+        /*
         if (OperationPanelList != null)    // 리스트 비어있을 것을 대비해 예외처리
         {
             DeactivatePanels();
         }
+        */
     }
 
 
+    // 전투 버튼 클릭 시 캔버스 활성화
+    public void OnClickBattleTab()
+    {
+        // 캔버스 활성화
+        OperationCanvas.SetActive(true);
+    }
+
+    // 전투 컨텐츠 캔버스 안에서 각각의 하위 컨텐츠 창 클릭 시 푸쉬 처리 
+    public void OnClickOperationButtons(int index)
+    {
+        // 전투 컨텐츠 캔버스 활성화
+        if (OperationCanvas != null && !OperationCanvas.activeSelf)
+        {
+            OperationCanvas.SetActive(true);
+        }
+
+        // 하위 컨텐츠 패널 활성화 요청
+        UIManager.Instance.PushUI(OperationPanelList[index]);
+    }
+
+
+
+    // 아래는 구버젼이라 주석 처리
+    /*
     // 캔버스 활성화, 비활성화 기능
     // 추후 다른 기능이 생길 수도 있을 고려해 미리 만듦
     private void SetActivePanel(bool tf)
@@ -66,37 +93,8 @@ public class OperationButtonGroupManager : MonoBehaviour
         OperationPanelList[index].SetActive(true);
     }
 
-
-
-
-
-    /*
-    // 캠페인 버튼 클릭 시
-    public void OnClickCampaignBtn()
-    {
-        OperationCanvas.SetActive(true);
-        DeactivatePanels();
-
-        OperationPanelList[1].SetActive(true);
-    }
-
-    // 전투 버튼 클릭 시
-    public void OnClickBattlesBtn()
-    {
-        OperationCanvas.SetActive(true);
-        DeactivatePanels();
-
-        OperationPanelList[2].SetActive(true);
-    }
-
-    // 이벤트 버튼 클릭 시
-    public void OnClickEventStoryBtn()
-    {
-        OperationCanvas.SetActive(true);
-        DeactivatePanels();
-
-        OperationPanelList[3].SetActive(true);
-    }
     */
+
+
 
 }

@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// 메인 메뉴 하단의 버튼 그룹을 관리하는 매니저
 public class BottomButtonGroupManager : MonoBehaviour, IButtonGroup
 {
     BottomButtonController _currentSelected;
