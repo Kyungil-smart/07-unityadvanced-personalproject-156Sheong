@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.EventSystems;
 
 
-// 버튼 입력 처리 / 애니메이션 등 기능 작동용
+// 메인 화면 하단의 버튼 입력 처리 / 애니메이션 등 기능 작동용
 
 // IPointerClickHandler : 이벤트 시스템에 영향 받는 UI 오브젝트에 사용하는 클릭이나 터치 관련 인터페이스
 public class BottomButtonController : MonoBehaviour, IPointerClickHandler
