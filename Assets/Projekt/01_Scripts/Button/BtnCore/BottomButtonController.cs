@@ -6,10 +6,10 @@ using UnityEngine.EventSystems;
 // 버튼 입력 처리 / 애니메이션 등 기능 작동용
 
 // IPointerClickHandler : 이벤트 시스템에 영향 받는 UI 오브젝트에 사용하는 클릭이나 터치 관련 인터페이스
-public class ButtonController : MonoBehaviour, IPointerClickHandler
+public class BottomButtonController : MonoBehaviour, IPointerClickHandler
 {
     // 버튼 관련 매니저 연결용
-    [SerializeField] BottonButtonGroupManager _btnGroupManager;
+    [SerializeField] BottomButtonGroupManager _btnGroupManager;
 
     // 버튼 애니메이터 연결용
     [SerializeField] Animator _animator;

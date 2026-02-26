@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class BtnSelectedState : IState
 {
-    ButtonController _btn;
+    BottomButtonController _btn;
 
-    public BtnSelectedState(ButtonController button)
+    public BtnSelectedState(BottomButtonController button)
     {
         _btn = button;
     }

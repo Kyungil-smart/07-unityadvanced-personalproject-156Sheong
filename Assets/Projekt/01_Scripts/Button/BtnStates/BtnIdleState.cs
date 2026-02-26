@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class BtnIdleState : IState
 {
-    ButtonController _btn;
+    BottomButtonController _btn;
 
-    public BtnIdleState(ButtonController button)
+    public BtnIdleState(BottomButtonController button)
     {
         _btn = button;
     }

@@ -1,12 +1,12 @@
 using UnityEngine;
 
-public class BottonButtonGroupManager : MonoBehaviour, IButtonGroup
+public class BottomButtonGroupManager : MonoBehaviour, IButtonGroup
 {
-    ButtonController _currentSelected;
+    BottomButtonController _currentSelected;
 
 
     // 버튼 클릭시 호출되어서 판단함
-    public void OnButtonSelected(ButtonController selectedBtn)
+    public void OnButtonSelected(BottomButtonController selectedBtn)
     {
         // 이전에 다른 선택된 버튼이 존재하고, 현재 선택된 버튼이 이 버튼이 아니라면 기본 상태로 복귀
         if(_currentSelected != null && _currentSelected != selectedBtn)

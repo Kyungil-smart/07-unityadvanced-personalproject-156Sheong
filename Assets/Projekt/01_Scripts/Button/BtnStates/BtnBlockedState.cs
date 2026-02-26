@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class BtnBlockedState : IState
 {
-    ButtonController _btn;
+    BottomButtonController _btn;
 
-    public BtnBlockedState(ButtonController button)
+    public BtnBlockedState(BottomButtonController button)
     {
         _btn = button;
     }
