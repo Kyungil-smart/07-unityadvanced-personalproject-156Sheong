@@ -179,7 +179,23 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1000009
-    m_Localized: Tap the screen to start
+    m_Localized: Tap the screen to start.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1001014
+    m_Localized: Battles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1001015
+    m_Localized: Event
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1021001
+    m_Localized: Not available yet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1021002
+    m_Localized: Not unlocked yet.
     m_Metadata:
       m_Items: []
   references:

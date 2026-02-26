@@ -29,7 +29,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1000004
-    m_Key: UI_Button_Battle
+    m_Key: UI_Button_Operation
     m_Metadata:
       m_Items: []
   - m_Id: 1000005
@@ -117,6 +117,16 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 785849036825165941
+  - m_Id: 1001014
+    m_Key: UI_Button_Battles
+    m_Metadata:
+      m_Items:
+      - rid: 785849039078031526
+  - m_Id: 1001015
+    m_Key: UI_Button_Event
+    m_Metadata:
+      m_Items:
+      - rid: 785849039078031527
   - m_Id: 1011001
     m_Key: Faction_Name_Eisenreich
     m_Metadata:
@@ -196,6 +206,15 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 1012003
     m_Key: Leader_Name_Dumas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1021001
+    m_Key: SystemMsg_NotPrepared
+    m_Metadata:
+      m_Items:
+      - rid: 785849039078031532
+  - m_Id: 1021002
+    m_Key: SystemMsg_NotOpen
     m_Metadata:
       m_Items: []
   m_Metadata:
@@ -292,3 +311,15 @@ MonoBehaviour:
       type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
       data:
         m_CommentText: "\uB9AC\uB354\uBA85"
+    - rid: 785849039078031526
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "\uAC01\uC885 \uC804\uD22C \uCEE8\uD150\uCE20 \uBA54\uB274"
+    - rid: 785849039078031527
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "\uC774\uBCA4\uD2B8 \uCEE8\uD150\uCE20"
+    - rid: 785849039078031532
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "\uC2DC\uC2A4\uD15C \uBA54\uC2DC\uC9C0"
