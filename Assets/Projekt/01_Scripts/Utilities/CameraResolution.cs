@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class CameraResolution : MonoBehaviour
 {
+    // (유니티 6에서 자동으로 구현해주는 기능 있어서 현재는 사용 안함)
     // 카메라의 해상도를 고정하는 스크립트
     // 용도 : 다양한 모바일 환경의 해상도를 관리하기 위함
     // 단점 : 앵커를 사용하지 않아야함
