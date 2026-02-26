@@ -45,7 +45,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LoadingManager
   sceneToLoad:
+  - LogoScene
   - MainScene
-  firstLoadingImgs: []
-  loadingCanvas: {fileID: 5233643227482985902, guid: deffb79b7493929409c3cc3d8bda6fb3, type: 3}
-  changeInterval: 0
+  darkVail: {fileID: 0}
+  buttonForNextScene: {fileID: 0}
+  firstLoadingImgs:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  loadingCanvas: {fileID: 0}
+  changeInterval: 5
