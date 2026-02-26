@@ -839,7 +839,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -2, y: 322}
-  m_SizeDelta: {x: 1000, y: 480}
+  m_SizeDelta: {x: 720, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &827330600
 MonoBehaviour:
@@ -888,12 +888,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 84
+  m_fontSize: 84.8
   m_fontSizeBase: 96
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 72
-  m_fontSizeMax: 84
+  m_fontSizeMax: 96
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -1017,7 +1017,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 2, y: 318}
-  m_SizeDelta: {x: 1000, y: 480}
+  m_SizeDelta: {x: 720, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &841129432
 MonoBehaviour:
@@ -1066,12 +1066,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 84
+  m_fontSize: 84.8
   m_fontSizeBase: 96
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 72
-  m_fontSizeMax: 84
+  m_fontSizeMax: 96
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -1285,7 +1285,7 @@ Canvas:
   m_GameObject: {fileID: 877285335}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 1525350871}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -2201,7 +2201,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8625799157497049452}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8887044853267941156}
+        m_TargetAssemblyTypeName: LoadingManager, Assembly-CSharp
+        m_MethodName: OnClickChangeButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!224 &1048365865448482434
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2219,7 +2231,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 2, y: -692}
-  m_SizeDelta: {x: 1000, y: 400}
+  m_SizeDelta: {x: 720, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2821680610084117596
 CanvasRenderer:
@@ -2238,7 +2250,7 @@ Canvas:
   m_GameObject: {fileID: 8637745026711214889}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 1525350871}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -2515,7 +2527,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
+  m_fontSize: 54.05
   m_fontSizeBase: 64
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2685,7 +2697,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
+  m_fontSize: 54.05
   m_fontSizeBase: 64
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2747,7 +2759,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -2, y: -688}
-  m_SizeDelta: {x: 1000, y: 400}
+  m_SizeDelta: {x: 720, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8625799157497049452
 MonoBehaviour:
@@ -2921,6 +2933,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8733940401658936918, guid: a38946e2b2dd75f4493b655feb036acc, type: 3}
   m_PrefabInstance: {fileID: 8887044853267941154}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8887044853267941156 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3435953534957486251, guid: a38946e2b2dd75f4493b655feb036acc, type: 3}
+  m_PrefabInstance: {fileID: 8887044853267941154}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c81e9ebfb7b5a545bbf1cfa4bd3cf29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LoadingManager
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
