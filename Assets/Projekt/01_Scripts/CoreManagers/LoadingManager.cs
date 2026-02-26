@@ -11,6 +11,8 @@ public class LoadingManager : MonoBehaviour
     // 로딩 관련 기능 기능
     [Header("ForLoading")]
     [SerializeField] private List<string> sceneToLoad = new List<string>(); // 넘어갈 씬들 명칭
+
+    [Header("UIObjs")]
     [SerializeField] GameObject darkVail;   // 로딩 씬 시작 시 제거될 검은 이미지
     [SerializeField] GameObject buttonForNextScene; // 로딩 완료 시 활성화할 버튼
 
@@ -21,7 +23,8 @@ public class LoadingManager : MonoBehaviour
     [SerializeField] GameObject loadingCanvas;   // 이미지를 표시할 캔버스
     [SerializeField] private float changeInterval = 0f;
 
-
+    // 비동기 로딩 저장
+    private AsyncOperation asyncLoad;
 
 
     // 씬 로딩 관련해서 Awake 를 사용할거면 protected override void Awake() 형태로 해야함
@@ -38,17 +41,13 @@ public class LoadingManager : MonoBehaviour
         int currentSceneNumber = SceneManager.GetActiveScene().buildIndex;
 
         // 현재 씬 번호에 따라 동작하는 기능
-        if(currentSceneNumber == 0) ChangeScene(1);
-        else
-        {
-            // @ 외부에서 번호 받고, 이에 따라 신 로딩하는 기능 필요
-            ChangeScene(1);
-        }
+        if(currentSceneNumber == 0) StartCoroutine(LoadSceneAsync("MainScene"));
 
         // 배경 이미지 정해진 시간마다 바꿔주는 코루틴 시작
         StartCoroutine(AutoChangeImg());
 
-        darkVail.SetActive(false);
+        // 1초후 검은 화면 끄기
+        Invoke("DisableDarkVail", 1.0f);
     }
 
 
@@ -73,30 +72,52 @@ public class LoadingManager : MonoBehaviour
         }
     }
 
+    // 검은 화면 끄는 기능
+    private void DisableDarkVail()
+    {
+        if (darkVail.activeSelf) darkVail.SetActive(false);
+    }
+
+
+
+
 
     // 로딩이 완료될 때까지 대기하는 비동기 로딩
     IEnumerator LoadSceneAsync(string sceneName)
     {
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
+        asyncLoad = SceneManager.LoadSceneAsync(sceneName);
 
         // 로딩이 완료 되어도 자동으로 씬 넘어가지 않도록 하는 기능
         asyncLoad.allowSceneActivation = false;
-
+        
+        // 90% 로딩 완료되면 버튼 활성화
+        // !asyncLoad.isDone 으로 넣으면 오류나서 수정
+        while (asyncLoad.progress < 0.9f)
+        {
+            Debug.Log($"{sceneName} 씬 로딩 완료");
+            yield return null;
+        }
+        /*
         while (!asyncLoad.isDone)
         {
             buttonForNextScene.SetActive(true); // 로딩 완료 시 버튼 활성화
             yield return null;
         }
+        */
+
+        // 로딩이 90% 이상 되면 다음으로 넘어가는 버튼 활성화
+        if (buttonForNextScene != null)
+        {
+            buttonForNextScene.SetActive(true);
+        }
     }
 
 
     // 로딩 완료 후 버튼 클릭 시, 실제 씬 넘어가는 기능
-    public void ChangeScene(int sceneNumber)
+    public void OnClickChangeButton()
     {
-        // @ 임시 비동기 씬 로딩, 추후 개선 예정
-        // sceneToLoad 리스트의 번호에 해당하는 씬의 string 명칭을 가지고, Build Settings 에서 해당 이름 씬 찾아서 로딩하는 기능
-        StartCoroutine(LoadSceneAsync(sceneToLoad[sceneNumber]));
-        Debug.Log($"{sceneNumber} 번째 씬 로딩 완료");
+        asyncLoad.allowSceneActivation = true;
+
     }
 
 
