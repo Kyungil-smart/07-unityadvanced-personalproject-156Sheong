@@ -198,6 +198,242 @@ MonoBehaviour:
     m_Localized: Not unlocked yet.
     m_Metadata:
       m_Items: []
+  - m_Id: 1000010
+    m_Localized: Enter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000011
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000012
+    m_Localized: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000013
+    m_Localized: Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002001
+    m_Localized: Recruit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002002
+    m_Localized: Trained
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002003
+    m_Localized: Regular
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002004
+    m_Localized: Seasoned
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002005
+    m_Localized: Veteran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002006
+    m_Localized: Elite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002101
+    m_Localized: Militia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002102
+    m_Localized: Conscript
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002103
+    m_Localized: Garrison
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002104
+    m_Localized: Regular
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002105
+    m_Localized: Shock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002106
+    m_Localized: Elite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002201
+    m_Localized: Cadet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002202
+    m_Localized: Platoon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002203
+    m_Localized: Company
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002204
+    m_Localized: Battalion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002205
+    m_Localized: Regiment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002206
+    m_Localized: Brigade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002207
+    m_Localized: Division
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002208
+    m_Localized: Corps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002209
+    m_Localized: Army
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002210
+    m_Localized: Group
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002211
+    m_Localized: Marshal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100100
+    m_Localized: Civil War
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100101
+    m_Localized: Coup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100102
+    m_Localized: (Dummy)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100103
+    m_Localized: (Dummy)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100104
+    m_Localized: Intimate Enemy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100105
+    m_Localized: (Dummy)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100106
+    m_Localized: (Dummy)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100107
+    m_Localized: (Dummy)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100108
+    m_Localized: (Dummy)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100109
+    m_Localized: (Dummy)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100110
+    m_Localized: (Dummy)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100200
+    m_Localized: Proxy War
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100201
+    m_Localized: (Dummy)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100202
+    m_Localized: (Dummy)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100203
+    m_Localized: (Dummy)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100204
+    m_Localized: (Dummy)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100205
+    m_Localized: (Dummy)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100206
+    m_Localized: (Dummy)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100207
+    m_Localized: (Dummy)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100208
+    m_Localized: (Dummy)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100209
+    m_Localized: (Dummy)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100210
+    m_Localized: (Dummy)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100300
+    m_Localized: Counterattack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100400
+    m_Localized: Escalation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100500
+    m_Localized: Opportunism
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100600
+    m_Localized: Great War
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1110001
+    m_Localized: Sector 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1110002
+    m_Localized: Sector 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1110003
+    m_Localized: Sector 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1110004
+    m_Localized: Sector 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1110005
+    m_Localized: Sector 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1110006
+    m_Localized: Sector 6
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

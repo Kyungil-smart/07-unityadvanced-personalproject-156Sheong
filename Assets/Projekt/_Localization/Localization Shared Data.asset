@@ -52,6 +52,22 @@ MonoBehaviour:
     m_Key: UI_Button_LoadingEndButton
     m_Metadata:
       m_Items: []
+  - m_Id: 1000010
+    m_Key: UI_Button_Enter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000011
+    m_Key: UI_Button_Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000012
+    m_Key: UI_Button_Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000013
+    m_Key: UI_Button_Cancel
+    m_Metadata:
+      m_Items: []
   - m_Id: 1001001
     m_Key: UI_Button_Quest
     m_Metadata:
@@ -127,6 +143,101 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 785849039078031527
+  - m_Id: 1002001
+    m_Key: UI_Button_Difficulty_Recruit
+    m_Metadata:
+      m_Items:
+      - rid: 785849059902226506
+  - m_Id: 1002002
+    m_Key: UI_Button_Difficulty_Trained
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002003
+    m_Key: UI_Button_Difficulty_Regular
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002004
+    m_Key: UI_Button_Difficulty_Seasoned
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002005
+    m_Key: UI_Button_Difficulty_Veteran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002006
+    m_Key: UI_Button_Difficulty_Elite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002101
+    m_Key: UI_Button_CardRank_01
+    m_Metadata:
+      m_Items:
+      - rid: 785849059902226507
+  - m_Id: 1002102
+    m_Key: UI_Button_CardRank_02
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002103
+    m_Key: UI_Button_CardRank_03
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002104
+    m_Key: UI_Button_CardRank_04
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002105
+    m_Key: UI_Button_CardRank_05
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002106
+    m_Key: UI_Button_CardRank_06
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002201
+    m_Key: UI_Button_PvPRank_01
+    m_Metadata:
+      m_Items:
+      - rid: 785849059902226508
+  - m_Id: 1002202
+    m_Key: UI_Button_PvPRank_02
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002203
+    m_Key: UI_Button_PvPRank_03
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002204
+    m_Key: UI_Button_PvPRank_04
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002205
+    m_Key: UI_Button_PvPRank_05
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002206
+    m_Key: UI_Button_PvPRank_06
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002207
+    m_Key: UI_Button_PvPRank_07
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002208
+    m_Key: UI_Button_PvPRank_08
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002209
+    m_Key: UI_Button_PvPRank_09
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002210
+    m_Key: UI_Button_PvPRank_10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002211
+    m_Key: UI_Button_PvPRank_11
+    m_Metadata:
+      m_Items: []
   - m_Id: 1011001
     m_Key: Faction_Name_Eisenreich
     m_Metadata:
@@ -215,6 +326,141 @@ MonoBehaviour:
       - rid: 785849039078031532
   - m_Id: 1021002
     m_Key: SystemMsg_NotOpen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100100
+    m_Key: Campaign_Name_0100
+    m_Metadata:
+      m_Items:
+      - rid: 785849059902226509
+  - m_Id: 1100101
+    m_Key: Campaign_Name_0101
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100102
+    m_Key: Campaign_Name_0102
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100103
+    m_Key: Campaign_Name_0103
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100104
+    m_Key: Campaign_Name_0104
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100105
+    m_Key: Campaign_Name_0105
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100106
+    m_Key: Campaign_Name_0106
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100107
+    m_Key: Campaign_Name_0107
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100108
+    m_Key: Campaign_Name_0108
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100109
+    m_Key: Campaign_Name_0109
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100110
+    m_Key: Campaign_Name_0110
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100200
+    m_Key: Campaign_Name_0200
+    m_Metadata:
+      m_Items:
+      - rid: 785849059902226510
+  - m_Id: 1100201
+    m_Key: Campaign_Name_0201
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100202
+    m_Key: Campaign_Name_0202
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100203
+    m_Key: Campaign_Name_0203
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100204
+    m_Key: Campaign_Name_0204
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100205
+    m_Key: Campaign_Name_0205
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100206
+    m_Key: Campaign_Name_0206
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100207
+    m_Key: Campaign_Name_0207
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100208
+    m_Key: Campaign_Name_0208
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100209
+    m_Key: Campaign_Name_0209
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100210
+    m_Key: Campaign_Name_0210
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1100300
+    m_Key: Campaign_Name_0300
+    m_Metadata:
+      m_Items:
+      - rid: 785849059902226511
+  - m_Id: 1100400
+    m_Key: Campaign_Name_0400
+    m_Metadata:
+      m_Items:
+      - rid: 785849059902226512
+  - m_Id: 1100500
+    m_Key: Campaign_Name_0500
+    m_Metadata:
+      m_Items:
+      - rid: 785849059902226513
+  - m_Id: 1100600
+    m_Key: Campaign_Name_0600
+    m_Metadata:
+      m_Items:
+      - rid: 785849059902226514
+  - m_Id: 1110001
+    m_Key: Mission_Name_01
+    m_Metadata:
+      m_Items:
+      - rid: 785849059902226515
+  - m_Id: 1110002
+    m_Key: Mission_Name_02
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1110003
+    m_Key: Mission_Name_03
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1110004
+    m_Key: Mission_Name_04
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1110005
+    m_Key: Mission_Name_05
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1110006
+    m_Key: Mission_Name_06
     m_Metadata:
       m_Items: []
   m_Metadata:
@@ -323,3 +569,45 @@ MonoBehaviour:
       type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
       data:
         m_CommentText: "\uC2DC\uC2A4\uD15C \uBA54\uC2DC\uC9C0"
+    - rid: 785849059902226506
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "\uCEE8\uD150\uCE20\uBCC4 \uB09C\uC774\uB3C4 - \uC2E0\uBCD1\uC740
+          \uC0AC\uC6A9 \uC548\uD560 \uC608\uC815"
+    - rid: 785849059902226507
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "\uCE74\uB4DC \uB4F1\uAE09"
+    - rid: 785849059902226508
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "PvP \uB9AC\uADF8 \uB4F1\uAE09"
+    - rid: 785849059902226509
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "\uCEA0\uD398\uC778 \uCC55\uD130 \uBC0F \uC2A4\uD14C\uC774\uC9C0
+          \uBA85\uCE6D - 1\uC7A5"
+    - rid: 785849059902226510
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "2\uC7A5"
+    - rid: 785849059902226511
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "3\uC7A5"
+    - rid: 785849059902226512
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "4\uC7A5"
+    - rid: 785849059902226513
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "5\uC7A5"
+    - rid: 785849059902226514
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "6\uC7A5"
+    - rid: 785849059902226515
+      type: {class: Comment, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_CommentText: "\uBBF8\uC158 \uCC55\uD130 \uBA85\uCE6D - 1\uC7A5"
