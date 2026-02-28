@@ -12,10 +12,11 @@ using UnityEngine.UI;
 
 public class SwipeUI : MonoBehaviour, IBeginDragHandler, IEndDragHandler
 {
-    [SerializeField] private List<RectTransform> swipeContents = new List<RectTransform>();   // 스윕 대상이 될 자식 오브젝트 위치
+    [SerializeField] private List<SwipeContentsUI> swipeContents = new List<SwipeContentsUI>();   // 스윕 대상이 될 자식 오브젝트 위치
     [SerializeField] private RectTransform contentRect; // 이동을 담당하는 오브젝트의 위치
+    [SerializeField] private float addPosY = 0f;    // 중심 지점을 보정해주는 y 축 보정값, 실제로 테스트하며 적절한 값을 찾아서 넣어야 함
     [SerializeField] private float snapSpeed = 0f; // 드래그를 멈췄을 때 스냅되는 속도
-    
+
 
     private bool isSwipeMode = false;   // 현재 유저가 드래그 중인지 체크
     private float[] targetPositions;    // 각 컨텐츠가 중앙에 위치할 때 컨텐츠의 목표 y 값 들
@@ -25,6 +26,10 @@ public class SwipeUI : MonoBehaviour, IBeginDragHandler, IEndDragHandler
 
     private void Start()
     {
+        // 캔버스 레이아웃과 그래픽 변경을 다음 프레임까지 안 기다리고 바로 적용하도록 강제
+        // 이 함수가 없었을 때 인덱스가 무조건 0번을 기준으로 초기화되는 문제가 생겨서 추가함
+        Canvas.ForceUpdateCanvases();
+
         // 이 스크립트가 붙은 자식 오브젝트를 모두 찾아 배열에 넣는 기능, 자식 오브젝트가 생성된 이후 시작해야해서 Awake 대신 Start로
         targetPositions = new float[swipeContents.Count];
 
@@ -32,7 +37,8 @@ public class SwipeUI : MonoBehaviour, IBeginDragHandler, IEndDragHandler
         for (int i = 0; i < swipeContents.Count; i++)
         {
             // 컨텐츠의 로컬 위치를 기준으로 역산해 컨텐츠의 목표 위치 잡기
-            targetPositions[i] = -swipeContents[i].localPosition.y;
+            RectTransform rect = swipeContents[i].GetComponent<RectTransform>();
+            targetPositions[i] = -rect.localPosition.y + addPosY;
         }
 
 
@@ -44,7 +50,7 @@ public class SwipeUI : MonoBehaviour, IBeginDragHandler, IEndDragHandler
     }
 
 
-    
+
     private void Update()
     {
         // 유저가 드래그 중이 아닐 때만 스냅을 실행 (기존에는 Update 시 계속 실행되게 했는데, 매 프레임마다 작동하는게 구조상 비효율적이라 수정)
@@ -52,8 +58,8 @@ public class SwipeUI : MonoBehaviour, IBeginDragHandler, IEndDragHandler
         if (!isSwipeMode)
         {
             // Mathf.Lerp를 사용해 현재 위치 -> 목표 위지로 부드럽게 이동
-            float newX = Mathf.Lerp(contentRect.anchoredPosition.x, targetPosY, Time.deltaTime * snapSpeed);
-            contentRect.anchoredPosition = new Vector2(newX, contentRect.anchoredPosition.y);
+            float newY = Mathf.Lerp(contentRect.anchoredPosition.y, targetPosY, Time.deltaTime * snapSpeed);
+            contentRect.anchoredPosition = new Vector2(contentRect.anchoredPosition.x, newY);
         }
     }
 
@@ -94,10 +100,15 @@ public class SwipeUI : MonoBehaviour, IBeginDragHandler, IEndDragHandler
                 closestPos = targetPositions[i];
                 closestIndex = i;
             }
+
+
         }
 
         // 가장 가까운 컨텐츠의 인덱스를 저장
         currentIndex = closestIndex;
+
+        UpdateFocusEffects();
+
         return closestPos;
     }
 
@@ -110,11 +121,28 @@ public class SwipeUI : MonoBehaviour, IBeginDragHandler, IEndDragHandler
         {
             targetPosY = targetPositions[index];
             currentIndex = index;
+
+            UpdateFocusEffects();
         }
     }
 
 
-   
+    // 중앙에 있는 컨텐츠를 켜주는 기능
+    private void UpdateFocusEffects()
+    {
+        for (int i = 0; i < swipeContents.Count; i++)
+        {
+            // 모든 하위 컨텐츠 순회해 중앙은 true / 아니면 false 처리
+            if (i == currentIndex)
+            {
+                swipeContents[i].SetSwipeContents(true);
+            }
+            else
+            {
+                swipeContents[i].SetSwipeContents(false);
+            }
+        }
+    }
 
 }
 
