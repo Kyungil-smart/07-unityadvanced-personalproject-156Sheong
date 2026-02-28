@@ -2393,6 +2393,7 @@ GameObject:
   - component: {fileID: 204221882}
   - component: {fileID: 204221881}
   - component: {fileID: 204221883}
+  - component: {fileID: 204221884}
   m_Layer: 5
   m_Name: MissionPanel
   m_TagString: Untagged
@@ -2474,6 +2475,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ContentPanelUI
   parentCanvas: {fileID: 49657724}
+--- !u!114 &204221884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204221879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 858e952fe0439d84c87eda8c0d1361a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SwipeUI
+  swipeContents:
+  - {fileID: 2031733639}
+  - {fileID: 926615637}
+  - {fileID: 1796616103}
+  - {fileID: 1562071446}
+  - {fileID: 1814321421}
+  - {fileID: 15434572}
+  - {fileID: 2076814927}
+  - {fileID: 5647111}
+  - {fileID: 992670004}
+  - {fileID: 1975636760}
+  contentRect: {fileID: 577523417}
+  snapSpeed: 10
 --- !u!1 &204594412
 GameObject:
   m_ObjectHideFlags: 0
