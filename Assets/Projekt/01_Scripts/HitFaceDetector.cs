@@ -52,7 +52,7 @@ public class HitFaceDetector : MonoBehaviour
 
         // 각 축 판별
         if (absZ > absX && absZ > absY) return localDirection.z > 0 ? HitFace.Front : HitFace.Back;         // 정면이 가장 많이 사용될 값이라 예상되어 위쪽에 위치함
-        else if (absX > absY && absX > absZ) return localDirection.x > 0 ? HitFace.Right : HitFace.Left;
+        else if (absX > absY && absX > absZ) return HitFace.Side;
         else if (absY > absX && absY > absZ) return localDirection.y > 0 ? HitFace.Top : HitFace.Bottom;
         else return HitFace.Default;    // 사실상 나오는 안 되는 HitFace enum 값
 

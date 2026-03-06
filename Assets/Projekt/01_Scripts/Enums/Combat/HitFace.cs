@@ -9,8 +9,8 @@ public enum HitFace
     Back,
     Top,
     Bottom,
-    Right,
-    Left,
+    Side,
+    
 
 
 }
